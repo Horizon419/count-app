@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h2>COUNT APP</h2>
+        <h2>COUNT APPLICATION</h2>
         <h1>{count}</h1>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>+</button>
