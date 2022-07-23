@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+button {
+  font-size: calc(20px);
+  color: rgb(255, 255, 255);
+  background-color: red;
+  border: 0px;
+  border-radius: 22px;
+}
+
+button:hover {
+  background-color: #0d0333;
+  color: red;
+}
+
+h2 {
+  background-color: rgb(1, 1, 22);
+  display: flex;
+  border-radius: 9px;
+}
