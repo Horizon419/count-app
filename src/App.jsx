@@ -9,10 +9,7 @@ function App() {
       <header className="App-header">
   
         <h2>COUNT APP</h2>
-        <input
-        type="number"
-        placeholder={count}
-      />
+        <h1>{count}</h1>
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             +
