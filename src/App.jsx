@@ -9,17 +9,16 @@ function App() {
       <header className="App-header">
   
         <h2>COUNT APP</h2>
+        <input
+        type="number"
+        placeholder={count}
+      />
         <p>
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             +
           </button><button type="button" onClick={() => setCount((count) => count - 1)}>
             -
           </button>
-          <input
-        type="number"
-        placeholder={count}
-      />
-          
         </p>
         <button type="button" onClick={() => setCount((count) => count = 0)}>
             RESET

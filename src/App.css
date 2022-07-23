@@ -18,12 +18,18 @@ button {
   color: rgb(255, 255, 255);
   background-color: red;
   border: 0px;
-  border-radius: 22px;
+  border-radius: 7px;
+  margin-left: 10px;
 }
 
-button:hover {
+button:hover{
   background-color: #0d0333;
   color: red;
+}
+ 
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 h2 {
